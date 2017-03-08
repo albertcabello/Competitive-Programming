@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABF49051E46305800E56A17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DABF49041E46305800E56A17 /* main.cpp */; };
+		DAC5154D1E58DBAA0047241D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAC5154C1E58DBAA0047241D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DABF48FF1E46305800E56A17 /* CopyFiles */ = {
+		DAC515471E58DBAA0047241D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DABF49011E46305800E56A17 /* Programming Team */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programming Team"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DABF49041E46305800E56A17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DAC515491E58DBAA0047241D /* Feb18 Group Contest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Feb18 Group Contest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC5154C1E58DBAA0047241D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DABF48FE1E46305800E56A17 /* Frameworks */ = {
+		DAC515461E58DBAA0047241D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,96 +38,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DABF48F81E46305800E56A17 = {
+		DAC515401E58DBAA0047241D = {
 			isa = PBXGroup;
 			children = (
-				DABF49031E46305800E56A17 /* Programming Team */,
-				DABF49021E46305800E56A17 /* Products */,
+				DAC5154B1E58DBAA0047241D /* Feb18 Group Contest */,
+				DAC5154A1E58DBAA0047241D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DABF49021E46305800E56A17 /* Products */ = {
+		DAC5154A1E58DBAA0047241D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DABF49011E46305800E56A17 /* Programming Team */,
+				DAC515491E58DBAA0047241D /* Feb18 Group Contest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DABF49031E46305800E56A17 /* Programming Team */ = {
+		DAC5154B1E58DBAA0047241D /* Feb18 Group Contest */ = {
 			isa = PBXGroup;
 			children = (
-				DABF49041E46305800E56A17 /* main.cpp */,
+				DAC5154C1E58DBAA0047241D /* main.cpp */,
 			);
-			path = "Programming Team";
+			path = "Feb18 Group Contest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DABF49001E46305800E56A17 /* Programming Team */ = {
+		DAC515481E58DBAA0047241D /* Feb18 Group Contest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DABF49081E46305800E56A17 /* Build configuration list for PBXNativeTarget "Programming Team" */;
+			buildConfigurationList = DAC515501E58DBAA0047241D /* Build configuration list for PBXNativeTarget "Feb18 Group Contest" */;
 			buildPhases = (
-				DABF48FD1E46305800E56A17 /* Sources */,
-				DABF48FE1E46305800E56A17 /* Frameworks */,
-				DABF48FF1E46305800E56A17 /* CopyFiles */,
+				DAC515451E58DBAA0047241D /* Sources */,
+				DAC515461E58DBAA0047241D /* Frameworks */,
+				DAC515471E58DBAA0047241D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Programming Team";
-			productName = "Programming Team";
-			productReference = DABF49011E46305800E56A17 /* Programming Team */;
+			name = "Feb18 Group Contest";
+			productName = "Feb18 Group Contest";
+			productReference = DAC515491E58DBAA0047241D /* Feb18 Group Contest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DABF48F91E46305800E56A17 /* Project object */ = {
+		DAC515411E58DBAA0047241D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Alberto Cabello";
 				TargetAttributes = {
-					DABF49001E46305800E56A17 = {
+					DAC515481E58DBAA0047241D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6Q9UDY3K2L;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DABF48FC1E46305800E56A17 /* Build configuration list for PBXProject "Programming Team" */;
+			buildConfigurationList = DAC515441E58DBAA0047241D /* Build configuration list for PBXProject "Feb18 Group Contest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DABF48F81E46305800E56A17;
-			productRefGroup = DABF49021E46305800E56A17 /* Products */;
+			mainGroup = DAC515401E58DBAA0047241D;
+			productRefGroup = DAC5154A1E58DBAA0047241D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DABF49001E46305800E56A17 /* Programming Team */,
+				DAC515481E58DBAA0047241D /* Feb18 Group Contest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DABF48FD1E46305800E56A17 /* Sources */ = {
+		DAC515451E58DBAA0047241D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABF49051E46305800E56A17 /* main.cpp in Sources */,
+				DAC5154D1E58DBAA0047241D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DABF49061E46305800E56A17 /* Debug */ = {
+		DAC5154E1E58DBAA0047241D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		DABF49071E46305800E56A17 /* Release */ = {
+		DAC5154F1E58DBAA0047241D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Release;
 		};
-		DABF49091E46305800E56A17 /* Debug */ = {
+		DAC515511E58DBAA0047241D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6Q9UDY3K2L;
@@ -222,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		DABF490A1E46305800E56A17 /* Release */ = {
+		DAC515521E58DBAA0047241D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6Q9UDY3K2L;
@@ -233,24 +233,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DABF48FC1E46305800E56A17 /* Build configuration list for PBXProject "Programming Team" */ = {
+		DAC515441E58DBAA0047241D /* Build configuration list for PBXProject "Feb18 Group Contest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DABF49061E46305800E56A17 /* Debug */,
-				DABF49071E46305800E56A17 /* Release */,
+				DAC5154E1E58DBAA0047241D /* Debug */,
+				DAC5154F1E58DBAA0047241D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DABF49081E46305800E56A17 /* Build configuration list for PBXNativeTarget "Programming Team" */ = {
+		DAC515501E58DBAA0047241D /* Build configuration list for PBXNativeTarget "Feb18 Group Contest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DABF49091E46305800E56A17 /* Debug */,
-				DABF490A1E46305800E56A17 /* Release */,
+				DAC515511E58DBAA0047241D /* Debug */,
+				DAC515521E58DBAA0047241D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DABF48F91E46305800E56A17 /* Project object */;
+	rootObject = DAC515411E58DBAA0047241D /* Project object */;
 }
