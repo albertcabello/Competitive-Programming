@@ -1,7 +1,7 @@
 #include<iostream>
-#include<map>
+#include<math.h>
 using namespace std;
 int main() {
-	cout << "Hello World!" << endl;
+	int C;
 	return 0;
 }
