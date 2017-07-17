@@ -1,6 +1,9 @@
 #include<iostream>
+#include<algorithm>
+#include<numeric>
 #include<vector>
 #include<math.h>
+#include<map>
 #include<bitset>
 using namespace std;
 bitset<10000000000> bs;
@@ -28,33 +31,6 @@ void segmented_sieve(long low,long high) {
 	}
 }
 int main() {
-	long N;
-	cin >> N;
-	vector<long> nums;
-	while (N--) {
-		int temp;
-		cin >> temp;
-		nums.push_back(temp);
-	}
-	cin >> N;
-	while (N--) {
-		int count = 0;
-		long low, high;
-		cin >> low >> high;
-		if (low == 2) {
-			sieve(high);
-		}
-		else {
-			segmented_sieve(low, high);
-		}
-		for (int a : nums) {
-			for (long i = low; i <= high; i++) {
-				if (bs[i] && (a % i == 0)) {
-					count++;
-				}
-			}
-		}
-		cout << count << endl;
-	}
+
 	return 0;
 }
