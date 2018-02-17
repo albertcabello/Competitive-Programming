@@ -4,8 +4,8 @@
 #include<bitset>
 #include<vector>
 using namespace std;
-bitset<100000000> bs;
-vector<int> primes;
+bitset<10000000000> bs;
+vector<long long> primes;
 void sieve(long long n) {
         bs.set();
         long long _sieve_size = n + 1;
@@ -15,13 +15,13 @@ void sieve(long long n) {
                         for (long long j = i*2; j <= _sieve_size; j+=i) {
                                 bs[j] = 0;
                         }
-			primes.push_back((int)i);
+			primes.push_back((long long)i);
                 }
         }
 }
 
-map<int, int> primeFactors(long long N) {
-	map<int, int> factors;
+map<long long, long long> primeFactors(long long N) {
+	map<long long, long long> factors;
 	long long PF_idx = 0, PF = primes[PF_idx];
 	while (PF * PF <= N) {
 		while (N % PF == 0) {
@@ -37,13 +37,16 @@ map<int, int> primeFactors(long long N) {
 }
 
 int main() {
-	sieve(10000000);
-	long long N;
-	while (cin >> N) {
-		map<int, int> factors = primeFactors(N);
-		for (auto key : factors) {
-			cout << key.first << " " << key.second << endl;
-		}
+	sieve(1e6);
+	long long Z;
+	cin >> Z;
+	while (Z--) {
+		long long N;
+		cin >> N;
+		long long ans = 0;
+		map<long long, long long> factors = primeFactors(N);
+		ans = factors.rbegin()->first;
+		cout << ans << endl;
 	}
 	return 0;
 }

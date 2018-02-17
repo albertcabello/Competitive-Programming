@@ -4,7 +4,7 @@
 #include<bitset>
 #include<vector>
 using namespace std;
-bitset<10000000000> bs;
+bitset<100000000> bs;
 vector<int> primes;
 void sieve(long long n) {
         bs.set();
@@ -37,16 +37,15 @@ map<int, int> primeFactors(long long N) {
 }
 
 int main() {
-	sieve(1e12);
-	int Z;
+	sieve(10000000);
+	long long Z;
 	cin >> Z;
 	while (Z--) {
-		cout << "While" << endl;
-		long long N;
-		long long ans = 1;
-		map<int, int> factors = primeFactors(N);
-		cout << factors.rbegin()->first << endl;
+		int N;
+		cin >> N;
+		cout << primes[N-1] << endl;
 	}
 	return 0;
 }
+
 
