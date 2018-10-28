@@ -1,0 +1,2 @@
+Project Euler 15, 28, 24, 10, 12, 27
+UVA 10541 Stripes, 10784 Diagonal

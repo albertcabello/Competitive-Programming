@@ -3,7 +3,7 @@
 #include<math.h>
 #include<bitset>
 using namespace std;
-bitset<10000000> bs;
+bitset<1000000000> bs;
 void sieve(long long n) {
 	bs.set();
 	long long _sieve_size = n + 1;
@@ -29,11 +29,6 @@ void segmented_sieve(long long low, long long high) {
 }
 		
 int main() {
-	segmented_sieve(2,11);
-	for (int i = 2; i < 11; i++) {
-		if (bs[i]) {
-			cout << i << " " << bs[i] << endl;
-		}
-	}
+	sieve(1000000000);
 	return 0;
 }
